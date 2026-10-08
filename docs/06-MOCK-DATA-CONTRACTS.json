@@ -1,0 +1,110 @@
+{
+  "api_version": "v1",
+  "base_url": "http://127.0.0.1:8000/api/v1",
+  "mock_users": [
+    {
+      "id": "usr_cust_001",
+      "email": "customer@example.com",
+      "password_hash": "argon2_or_bcrypt_hash",
+      "plain_demo_pw": "Customer123!",
+      "name": "Jane Doe",
+      "role": "customer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=150"
+    },
+    {
+      "id": "usr_adm_001",
+      "email": "admin@store.com",
+      "password_hash": "argon2_or_bcrypt_hash",
+      "plain_demo_pw": "Admin123!",
+      "name": "Alex Mercer (Store Ops)",
+      "role": "admin",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150"
+    }
+  ],
+  "mock_products": [
+    {
+      "id": "prod_1",
+      "title": "Aura Lumina Noise-Cancelling Headphones",
+      "slug": "aura-lumina-noise-cancelling-headphones",
+      "category": "Audio",
+      "price": 289.99,
+      "originalPrice": 349.99,
+      "stock": 42,
+      "rating": 4.9,
+      "reviewsCount": 184,
+      "badge": "Best Seller",
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800&q=80",
+      "description": "Studio-grade wireless acoustics engineered with hybrid active noise cancellation, custom 40mm beryllium drivers, and a 45-hour ultra endurance battery."
+    },
+    {
+      "id": "prod_2",
+      "title": "Chronos Apex Titanium Smartwatch",
+      "slug": "chronos-apex-titanium-smartwatch",
+      "category": "Wearables",
+      "price": 399.00,
+      "originalPrice": 450.00,
+      "stock": 18,
+      "rating": 4.8,
+      "reviewsCount": 96,
+      "badge": "Trending",
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=800&q=80",
+      "description": "Aerospace-grade titanium chassis with sapphire crystal AMOLED display, advanced biometric health tracking, ECG, and 100m water resistance."
+    },
+    {
+      "id": "prod_3",
+      "title": "Horizon Minimal Mechanical Keyboard",
+      "slug": "horizon-minimal-mechanical-keyboard",
+      "category": "Computing",
+      "price": 169.50,
+      "originalPrice": 199.00,
+      "stock": 25,
+      "rating": 4.7,
+      "reviewsCount": 68,
+      "badge": "New Arrival",
+      "image": "https://images.unsplash.com/photo-1587829741301-dc798b83add3?w=800&q=80",
+      "description": "Custom hot-swappable tactile switches, CNC anodized aluminum frame, RGB underglow, and multi-device Bluetooth / 2.4GHz connectivity."
+    },
+    {
+      "id": "prod_4",
+      "title": "Verve Precision Wireless Mouse",
+      "slug": "verve-precision-wireless-mouse",
+      "category": "Computing",
+      "price": 89.99,
+      "originalPrice": 119.99,
+      "stock": 54,
+      "rating": 4.6,
+      "reviewsCount": 112,
+      "badge": "Staff Pick",
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?w=800&q=80",
+      "description": "Ergonomic sculpted silhouette with 26,000 DPI optical sensor, optical switches rated for 90M clicks, and ultra-lightweight 58g chassis."
+    },
+    {
+      "id": "prod_5",
+      "title": "Solace Acoustic Hi-Fi Desk Speakers",
+      "slug": "solace-acoustic-hi-fi-desk-speakers",
+      "category": "Audio",
+      "price": 319.00,
+      "originalPrice": 380.00,
+      "stock": 3,
+      "rating": 4.9,
+      "reviewsCount": 77,
+      "badge": "Low Stock",
+      "image": "https://images.unsplash.com/photo-1545454675-3531b543be5d?w=800&q=80",
+      "description": "Handcrafted walnut enclosures with silk dome tweeters, dedicated subwoofer output, and USB-C DAC for pristine audio fidelity."
+    },
+    {
+      "id": "prod_6",
+      "title": "Nomad Magnetic MagSafe Power Station",
+      "slug": "nomad-magnetic-magsafe-power-station",
+      "category": "Accessories",
+      "price": 119.00,
+      "originalPrice": 140.00,
+      "stock": 31,
+      "rating": 4.7,
+      "reviewsCount": 54,
+      "badge": "Popular",
+      "image": "https://images.unsplash.com/photo-1622445262464-84b1456045b6?w=800&q=80",
+      "description": "3-in-1 fast-charging hub for phone, watch, and earbuds. Premium brushed metal finish with weighted anti-slip base."
+    }
+  ]
+}
